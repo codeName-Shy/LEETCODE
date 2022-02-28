@@ -10,7 +10,6 @@ var twoSum = function(nums, target) {
         let findNumber = target - currentNumber;
         let index2 = previousValues[findNumber]
         if(index2 != null){
-            // console.log([index2, i])
             return [index2,i]
         }
         else{

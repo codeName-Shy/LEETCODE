@@ -16,7 +16,6 @@ var romanToInt = function(s){
         return numerals[s]
     } else{
     let result = s.split('').map((currentNumeral, index) => {
-        // return numerals[s[index]]  numerals[s[index-1]]
               if(numerals[s[index]] > numerals[s[index-1]]){
                         return 0
                 }
